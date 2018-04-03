@@ -1,5 +1,5 @@
 # Library-of-Math
-5 mathematic functions 
+5 mathematic  functions 
 factorial(number) - makes factorial from chosen number.
 trianglemaker(Ax, Ay, Bx, By, Cx, Cy) - calculate field of triangle from coordinates(x,y) of vertices.
 power(k, n) - powers a base(k) by index(n). (k^n)
