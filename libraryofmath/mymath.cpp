@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 
-int silniamaker(int number)
+int factorial(int number)
 {
     long long int silnia=1;
     for(long long int i=1;i<=number;i++)
