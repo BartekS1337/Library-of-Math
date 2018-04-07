@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     int n, k , n2, a, b, ax, ay, bx, by, cx, cy;
-    double mass, road, time;
+    double height, ray;
 
 
     //fibonacci
@@ -18,7 +18,7 @@ int main()
     cin>>k;
     cout<<"input your index to power"<<endl;
     cin>>n2;
-    cout<<"power of "<<k<<"^"<<n<<" ="<<power(k,n)<<endl;
+    cout<<"power of "<<k<<"^"<<n<<" ="<<power(k,n2)<<endl;
 
     //nwd
     cout<<"input first number"<<endl;
@@ -27,14 +27,12 @@ int main()
     cin>>b;
     cout<<"The biggest common factor of "<<a<<" and "<<b<<" is "<< NWD(a,b)<<endl;
 
-    //kineticenergy
-    cout<<"To calculate the kinetic energy input mass"<<endl;
-    cin>>mass;
-    cout<<"input road"<<endl;
-    cin>>road;
-    cout<<"input time"<<endl;
-    cin>>time;
-    cout<<"Kinetic energy = "<<kineticenergy(mass,road,time)<<endl;
+    //fieldofcylinder
+    cout<<"To calculate the field of cylinder input height"<<endl;
+    cin>>height;
+    cout<<"input ray"<<endl;
+    cin>>ray;
+    cout<<"Field of this cylinder = "<<cylinderfield(height, ray)<<endl;
 
     //Trianglemaker
     cout<<"to calculate field of triangle input the coordinates(x,y) of node A"<<endl;
