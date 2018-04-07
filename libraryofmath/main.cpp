@@ -4,7 +4,8 @@ using namespace std;
 
 int main()
 {
-    int n, k , n2, a, b, mass, road, time, ax, ay, bx, by, cx, cy;
+    int n, k , n2, a, b, ax, ay, bx, by, cx, cy;
+    double mass, road, time;
 
 
     //fibonacci
