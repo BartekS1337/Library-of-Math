@@ -18,7 +18,7 @@ int main()
     cin>>k;
     cout<<"input your index to power"<<endl;
     cin>>n2;
-    cout<<"power of "<<k<<"^"<<n<<" ="<<power(k,n2)<<endl;
+    cout<<"power of "<<k<<"^"<<n2<<" ="<<power(k,n2)<<endl;
 
     //nwd
     cout<<"input first number"<<endl;
