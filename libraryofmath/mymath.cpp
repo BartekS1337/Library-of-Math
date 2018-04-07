@@ -2,23 +2,26 @@
 #include <cmath>
 using namespace std;
 
-int factorial(int number)
+int kineticenergy(double mass, double road, double time)
 {
-    long long int silnia=1;
-    for(long long int i=1;i<=number;i++)
-        {
-            silnia=silnia*i;
-        }
+    double speed;
+    double kenergy;
 
-        return silnia;
+    speed = road/time;
+
+
+    kenergy = (mass * (speed*speed))/2;
+
+    return kenergy;
+
 }
 
 int trianglemaker(int Ax, int Ay, int Bx, int By, int Cx, int Cy)
 {
-    double pole;
-    pole=0.5 *fabs(((Bx-Ax)*(Cy-Ay))-((By-Ay)*(Cx-Ax)));
+    double field;
+    field=0.5 *fabs(((Bx-Ax)*(Cy-Ay))-((By-Ay)*(Cx-Ax)));
 
-    return pole;
+    return field;
 }
 
 int power(int k, int n)// k^n
