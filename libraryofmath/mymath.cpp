@@ -2,21 +2,17 @@
 #include <cmath>
 using namespace std;
 
-int kineticenergy(double mass, double road, double time)
+double cylinderfield(double height, double ray)
 {
-    double speed;
-    double kenergy;
+    double pi=3.14;
+    double field;
 
-    speed = road/time;
+    field=(2*(pi*(ray*ray))) + (2* ray * height * pi);
 
-
-    kenergy = (mass * (speed*speed))/2;
-
-    return kenergy;
-
+    return field;
 }
 
-int trianglemaker(int Ax, int Ay, int Bx, int By, int Cx, int Cy)
+double trianglemaker(int Ax, int Ay, int Bx, int By, int Cx, int Cy)
 {
     double field;
     field=0.5 *fabs(((Bx-Ax)*(Cy-Ay))-((By-Ay)*(Cx-Ax)));
